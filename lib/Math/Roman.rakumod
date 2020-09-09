@@ -106,7 +106,7 @@ Returns the instance as an arabic numeral.
 
 Defined as:
 
-    sub to-roman(Int $n where $n >= 0 --> Str) ix export
+    sub to-roman(Int $n where $n >= 0 --> Str) is export
 
 Returns the roman numeral form of the integer C<$n>.
 
